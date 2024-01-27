@@ -18,7 +18,7 @@
 --box-background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
 --button-background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
 --button-hover-background-color: color-mix(in srgb, currentColor 15%, -moz-Dialog) !important;}
-body{background-color: -moz-Dialog !important} @-moz-document url(about:blank){body{background-color: #eee !important} @media (prefers-color-scheme: dark){body{background-color: #222 !important}}}
+body{background-color: -moz-Dialog !important} @-moz-document url(about:blank){body{background-color: #eeeeee !important} @media (prefers-color-scheme: dark){body{background-color: #222 !important}}}
 
 /*  Removes the scrollbar on some places  */
 body,html{overflow-y: auto}
@@ -56,7 +56,8 @@ body,html{overflow-y: auto}
 /*  Devtools tabs  */
 .devtools-tab-line{border-radius: 0 0 5px 5px !important; height: 2px !important}
 #toolbox-container{margin-top: 10px !important; background: -moz-Dialog !important}  /*  Makes rounded corners with userchrome look better  */
-.devtools-tabbar{background: -moz-Dialog !important; border: none !important}
+.devtools-tabbar{background: -moz-Dialog !important; border: none !important;
+ padding-top: 10px !important;}
 #toolbox-container .customize-animate-enter-done, #toolbox-container .customize-menu, #toolbox-container .top-site-outer:hover, #toolbox-container button{background-color: -moz-Dialog!important}
 .devtools-toolbar{height: 35px !important; border: none !important; background-color: -moz-Dialog !important}  /*  Has effect on all toolbars  */
 .toolbox-panel-iframe{border-radius: 8px 8px 0 0 !important}
@@ -94,7 +95,7 @@ body,html{overflow-y: auto}
 .tag-state{border-radius: 6px !important; width: auto !important; left: -16px !important; right: 10px !important;}
 .tag-hover{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; z-index: 0 !important; opacity: 30%}
 html body.theme-body.devtools-monospace div#root-wrapper div#root{ padding: 6px 0 6px 10px !important; }
-#inspector-breadcrumbs{top: auto; !important}
+#inspector-breadcrumbs{top: auto !important}
 #inspector-breadcrumbs-toolbar{height: 24px !important;}
 #inspector-eyedropper-toggle{margin-right: 2px !important;}
 .theme-body{background: transparent !important}
@@ -234,7 +235,7 @@ window box.devtools-responsive-container.theme-body vbox#storage-tree ul.tree-wi
 .devtools-toolbar{position: sticky; top: 0px}
 
 /*  Stylesheet editor  */
-#style-editor-chrome .devtools-invisible-splitter{border-radius: 10px 0 0 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; !important; width: 10px; margin-left: -10px !important; opacity: 100% !important; margin-bottom: 35px !important}
+#style-editor-chrome .devtools-invisible-splitter{border-radius: 10px 0 0 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; width: 10px; margin-left: -10px !important; opacity: 100% !important; margin-bottom: 35px !important}
 .editor-pane .CodeMirror-gutters{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
 .editor-pane .CodeMirror-scroll{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
 .at-rule-label{ border: none !important; padding: 5px !important; background: aliceblue; border-radius: 8px !important; margin: 0 0 3px 5px !important; width: 92% !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; }
